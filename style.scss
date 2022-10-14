@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+
+header{
+    padding: 20px;
+    background-color: white;
+
+
+    nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 70px;
+        width: auto;
+
+
+        img{
+            width: 90px;
+            height: auto;
+            object-fit: contain;
+        }
+
+        ul{
+            display: flex;
+            flex-direction: row;
+            list-style-type: none;
+            gap: 20px;
+            align-items: center;
+
+
+            
+
+            a{
+                color: black;
+                text-decoration: none;
+            }
+        }
+            
+    }
+}
+
