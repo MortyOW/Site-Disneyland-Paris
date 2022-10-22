@@ -8,7 +8,7 @@
 	src: url("./fonts/AvenirLTStd-Black.otf") format("truetype");
 	font-weight: normal;
 }
-/*# sourceMappingURL=build.css.map */
+
 * {
 	margin: 0;
 	padding: 0;
@@ -236,14 +236,46 @@ header {
 		border-radius: 500px 0 0 500px;
 	}
 }
-.histoire {
-	margin-top: 90px;
-	display: flex;
-	align-items: center;
-	p {
-		font-family: "Avenir";
+
+
+#histoire{
+	display: grid;
+	place-items: center;
+	margin-top: 150px;
+	background-color: whitesmoke
+
+	h1{
+		font-family: 'Avenir';
+		
 	}
 }
+
+
+footer{
+	position: relative;
+	width: 100%;
+	left: 0;
+	bottom: 0;
+	background-color: white;
+	box-shadow: 0 6px 10px 5px rgba(0, 0, 0, 0.5);
+	display: flex;
+	justify-content: space-around;
+
+	a{
+		color: black;
+		text-align: center;
+		text-decoration: none;
+	}
+}
+
+
+
+
+
+
+
+
+
 @media (max-width: 767.98px) {
 	.timeline {
 		&::after {
